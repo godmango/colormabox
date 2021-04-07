@@ -37,7 +37,7 @@ function App() {
 			<button onClick={() => reset()}>Reset</button>
 			<form onSubmit={(event) => colorSubmit(event)}>
 				<input type="text" onChange={(event) => letterChange(event)} />
-				<button type="submit"> colorize </button>
+				<button type="submit"> default color </button>
 			</form>
 
 			{boxList.map((item, index) => (
